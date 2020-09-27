@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+colors 
+6A62D2 
+746BDE
+E5E8ED
+ */
+body {
+    background: #6A62D2;
+    font-family: lato;
+    color: #505269;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#myForm {
+    background: #fff;
+    padding: 2rem;
+    width: 30%;
+    border-radius: .2rem;
+}
+
+.row {
+    margin: 1rem 0;
+}
+
+.row:nth-child(1) {
+    margin:0;
+}
+
+.row h2 {
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    text-align:center;
+}
+
+.control {
+    width: 100%;
+    background: #E5E8ED;
+    font-size:1rem;
+    border:none;
+    padding: 1rem;
+}
+
+.checkbox {
+    padding-left: .5rem;
+}
+.checkbox input {
+    transform: scale(1.2);
+}
+
+.checkbox span {
+    margin-left:.2rem;
+}
+
+.btn {
+    background: #746BDE;
+    color: #fff;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.password {
+    text-align: center;
+    margin:0;
+}
+.password a {
+    color: #4b4b4b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
